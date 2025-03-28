@@ -13,6 +13,8 @@ Tech Stack Used:
   - Redis: Stores conversation history to maintain session context and improve user experience.
   
   - Hugging Face API: Used as a fallback mechanism for generating responses when the chatbot does not find relevant answers in the knowledge base.
+
+  - Docker: Dockerized both frontend and backend.
  
 
 How to Run:
