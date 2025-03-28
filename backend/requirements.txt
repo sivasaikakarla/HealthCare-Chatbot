@@ -1,0 +1,6 @@
+pip install fastapi uvicorn openai faiss-cpu redis langchain numpy requests
+uvicorn backend.main:app --reload
+npm run dev
+docker build -t medibot-backend .
+docker run -p 8000:8000 medibot-backend
+vercel deploy
