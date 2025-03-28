@@ -19,4 +19,26 @@ How to Run:
   - python -m streamlit run frontend/app.py    (frontend)
   - uvicorn backend.chatbot:app --reload  (backend)
 
+Prompt Engineering Approach:
+  - Rephrasing & Clarification: LLM refines retrieved responses for better understanding.
+  - Short & Relevant Responses: Ensures concise answers when needed.
+
+Limitations & Future Improvements:
+  - Relying on API
+  - Limited knowledge base
+
+Future Enhancements:
+  - Using pinecone for larger knowledge base
+  - Realtime Deployment
+
+Sample Input & Output:
+  - User Query:
+     "What are the symptoms of diabetes?"
+
+  - Chatbot Response:
+    "The symptoms of diabetes include excessive thirst, frequent urination, sudden weight loss, and fatigue."
+
+Demo:
+ScreenShot - (https://drive.google.com/file/d/1ssiR-74A6DqN6VpTNRvemMEaoDDQDKmL/view?usp=drive_link)
+  
 
