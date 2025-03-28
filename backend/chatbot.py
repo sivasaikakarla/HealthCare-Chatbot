@@ -7,6 +7,8 @@ from fastapi import FastAPI
 from sentence_transformers import SentenceTransformer
 from collections import Counter
 
+
+
 app = FastAPI()
 
 
